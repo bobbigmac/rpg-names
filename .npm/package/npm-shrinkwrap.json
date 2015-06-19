@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "darmok": {
+      "version": "0.1.0",
+      "dependencies": {
+        "lodash": {
+          "version": "2.4.2"
+        },
+        "stringformat": {
+          "version": "0.0.5"
+        }
+      }
+    }
+  }
+}
