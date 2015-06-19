@@ -1,6 +1,6 @@
 ## RPG Names Generator
 
-Meteor package to generate random names for RPG characters based off [https://www.npmjs.com/package/darmok](NPM Darmok's) markov chain builder.
+Meteor package to generate random names for RPG characters based off [NPM Darmok's](https://www.npmjs.com/package/darmok) markov chain builder.
 
 Comes pre-loaded with wizards and dragons lists.
 
@@ -33,7 +33,7 @@ Markov chain based off source list will be cached internally (so type will be re
 
 ### Dependencies
 
-[https://www.npmjs.com/package/darmok](Darmok) is used internally by `RPGNames` and is exported as `Darmok` for your own use if desired.
+[Darmok](https://www.npmjs.com/package/darmok) is used internally by `RPGNames` and is exported as `Darmok` for your own use if desired.
 
 ### Example output
 
