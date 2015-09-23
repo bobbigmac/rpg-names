@@ -1,6 +1,6 @@
 Package.describe({
   name: 'bobbigmac:rpg-names',
-  version: '0.1.0',
+  version: '0.1.1',
   // Brief, one-line summary of the package.
   summary: 'Generates random names for RPG characters. Starting with wizards.',
   // URL to the Git repository containing the source code for this package.
@@ -17,8 +17,8 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
 
-  api.addFiles('lists/wizard-names.json', ['server'], { isAsset: true });
-  api.addFiles('lists/dragon-names.json', ['server'], { isAsset: true });
+  api.addAssets('lists/wizard-names.json', ['server']);
+  api.addAssets('lists/dragon-names.json', ['server']);
 
   api.addFiles('rpg-names.js', ['server']);
   api.export("RPGNames", ['server']);
